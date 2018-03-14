@@ -34,3 +34,7 @@ a{
   clear: both;
   padding-top: 50px;
 }
+
+.hide{
+  display: none;
+}
