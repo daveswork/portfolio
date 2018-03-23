@@ -1,6 +1,6 @@
 
 html,body{
-  margin: 30 auto;
+  margin: 30px auto;
   padding: 0;
   height: 100%;
   font-size: 18px;
@@ -12,7 +12,7 @@ a{
 }
 
 .container{
-  margin: 0 auto;
+  margin: auto;
   vertical-align: middle;
   width: 50%;
 }
@@ -24,10 +24,12 @@ a{
 
 .leftNav{
   float: left;
+  text-align: left;
 }
 
 .rightNav{
   float: right;
+  text-align: right;
 }
 
 .main{
