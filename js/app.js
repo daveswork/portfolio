@@ -1,8 +1,9 @@
 var main = function() {
   $('.glyphicon').click(function(){
-	$(this).toggleClass('glyphicon-plus').toggleClass('glyphicon-minus');
-	$(this).toggleClass('.app-color')	
-    $(this).next().toggle();
+    event.preventDefault();
+	  $(this).toggleClass('glyphicon-plus').toggleClass('glyphicon-minus');
+    $(this).next('.content').toggleClass('hide');
+    console.log($(this).next('.content'))
   });
 
 };
